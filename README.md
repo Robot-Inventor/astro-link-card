@@ -30,7 +30,7 @@ Input:
 ```markdown
 this is a link: https://blog.google/products/android/world-emoji-day-2024/
 
-\`https://blog.google/products/android/world-emoji-day-2024/\`
+`https://blog.google/products/android/world-emoji-day-2024/`
 
 https://blog.google/products/android/world-emoji-day-2024/
 ```
