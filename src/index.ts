@@ -12,13 +12,13 @@ const astroLinkCard = (options?: RehypeOGCardOptions): AstroIntegration => {
     const integration: AstroIntegration = {
         hooks: {
             // eslint-disable-next-line jsdoc/require-jsdoc
-            "astro:config:setup": ({ config, updateConfig }) => {
+            "astro:config:setup": ({ updateConfig }) => {
                 const defaultOptions: RehypeOGCardOptions = {
                     buildCache: true,
-                    buildCachePath: config.cacheDir.pathname,
+                    buildCachePath: "./node_modules/.astro",
                     enableSameTextURLConversion: true,
                     serverCache: true,
-                    serverCachePath: config.publicDir.pathname
+                    serverCachePath: "./public"
                 } as const;
 
                 const mergedOptions = {
