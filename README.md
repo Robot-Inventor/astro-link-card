@@ -79,12 +79,9 @@ import linkCard from "astro-link-card";
 export default defineConfig({
     // ... other config
     integrations: [
-        [
-            linkCard,
-            {
-                // Options
-            }
-        ]
+        linkCard({
+            // options
+        })
     ]
 });
 ```
