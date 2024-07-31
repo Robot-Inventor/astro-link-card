@@ -92,6 +92,6 @@ All rehype-og-card options are supported. You can find the full list of options 
 
 - `enableSameTextURLConversion` (default: `true`): Enable conversion of links that have the same URL and text. This is useful for projects that have `markdown.gfm` enabled.
 - `serverCache` (default: `true`): Enable server-side image caching.
-- `serverCachePath` (default: `config.publicDir`): Path to store server-side image cache.
+- `serverCachePath` (default: `"./public"`): Path to store server-side image cache.
 - `buildCache` (default: `true`): Enable build cache for images and Open Graph metadata.
-- `buildCachePath` (default: `config.cacheDir`): Path to store build cache.
+- `buildCachePath` (default: `"./node_modules/.astro"`): Path to store build cache.
