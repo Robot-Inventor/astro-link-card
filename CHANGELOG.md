@@ -1,5 +1,11 @@
 # astro-link-card
 
+## 1.0.0
+
+### Major Changes
+
+-   [#13](https://github.com/Robot-Inventor/astro-link-card/pull/13) [`e5dedb6`](https://github.com/Robot-Inventor/astro-link-card/commit/e5dedb6dc1ba8a2ff5b8eab4e796821bf059a68f) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - docs: remove unnecessary escapes in README
+
 ## 0.1.2
 
 ### Patch Changes
