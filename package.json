@@ -1,0 +1,51 @@
+{
+  "name": "astro-link-card",
+  "version": "0.0.0",
+  "description": "Astro integration to automatically convert bare links into link cards.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist/"
+  ],
+  "type": "module",
+  "publishConfig": {
+    "provenance": true
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "format": "npx prettier --write ./src/",
+    "format:check": "npx prettier --check ./src/",
+    "lint": "npx eslint ./src/**/*.ts",
+    "version": "npm run build && git add .",
+    "ci:version": "changeset version && npm run version",
+    "ci:publish": "npm run build && changeset publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robot-Inventor/astro-link-card.git"
+  },
+  "keywords": [
+    "astro",
+    "rehype",
+    "rehype-plugin",
+    "astro-integration"
+  ],
+  "author": "Robot-Inventor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robot-Inventor/astro-link-card/issues"
+  },
+  "homepage": "https://github.com/Robot-Inventor/astro-link-card#readme",
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.7",
+    "@robot-inventor/eslint-config": "^0.2.26",
+    "eslint": "^9.8.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "astro": "^4.12.3",
+    "rehype-og-card": "^0.4.3"
+  }
+}
