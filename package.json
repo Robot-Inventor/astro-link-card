@@ -46,6 +46,6 @@
   },
   "dependencies": {
     "astro": "^4.12.3",
-    "rehype-og-card": "^0.4.3"
+    "rehype-og-card": "^1.0.0"
   }
 }
