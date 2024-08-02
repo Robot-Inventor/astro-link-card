@@ -28,7 +28,10 @@
     "astro",
     "rehype",
     "rehype-plugin",
-    "astro-integration"
+    "astro-integration",
+    "withastro",
+    "ui",
+    "seo"
   ],
   "author": "Robot-Inventor",
   "license": "MIT",
