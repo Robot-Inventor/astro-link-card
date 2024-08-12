@@ -1,4 +1,4 @@
-import rehypeOGCard, { RehypeOGCardOptions } from "rehype-og-card";
+import rehypeOGCard, { type RehypeOGCardOptions } from "rehype-og-card";
 import type { AstroIntegration } from "astro";
 
 /**
@@ -40,4 +40,4 @@ const astroLinkCard = (options?: RehypeOGCardOptions): AstroIntegration => {
 };
 
 export default astroLinkCard;
-export { RehypeOGCardOptions as AstroLinkCardOptions };
+export type { RehypeOGCardOptions as AstroLinkCardOptions };
