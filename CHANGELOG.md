@@ -1,5 +1,11 @@
 # astro-link-card
 
+## 1.0.12
+
+### Patch Changes
+
+-   [#60](https://github.com/Robot-Inventor/astro-link-card/pull/60) [`b0446f3`](https://github.com/Robot-Inventor/astro-link-card/commit/b0446f3a93888e5c05425df1ff20daecd32c262b) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency astro to v4.14.3
+
 ## 1.0.11
 
 ### Patch Changes
