@@ -1,5 +1,13 @@
 # astro-link-card
 
+## 1.0.14
+
+### Patch Changes
+
+-   [#66](https://github.com/Robot-Inventor/astro-link-card/pull/66) [`924da49`](https://github.com/Robot-Inventor/astro-link-card/commit/924da4971a4847ecc5f7f623c8fb0d9da77a84f2) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency astro to v4.14.5
+
+-   [#70](https://github.com/Robot-Inventor/astro-link-card/pull/70) [`b120b61`](https://github.com/Robot-Inventor/astro-link-card/commit/b120b61a8920406ee0ece50f8dd512a2df48ff19) Thanks [@dependabot](https://github.com/apps/dependabot)! - build(deps): bump micromatch from 4.0.7 to 4.0.8
+
 ## 1.0.13
 
 ### Patch Changes
