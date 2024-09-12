@@ -1,5 +1,11 @@
 # astro-link-card
 
+## 1.0.19
+
+### Patch Changes
+
+-   [#91](https://github.com/Robot-Inventor/astro-link-card/pull/91) [`d2f4c3e`](https://github.com/Robot-Inventor/astro-link-card/commit/d2f4c3ecb4006b8f25de0d95d7de3631ea2a3169) Thanks [@dependabot](https://github.com/apps/dependabot)! - build(deps): bump dset from 3.1.3 to 3.1.4
+
 ## 1.0.18
 
 ### Patch Changes
