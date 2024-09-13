@@ -1,5 +1,13 @@
 # astro-link-card
 
+## 1.0.20
+
+### Patch Changes
+
+-   [#93](https://github.com/Robot-Inventor/astro-link-card/pull/93) [`a5163df`](https://github.com/Robot-Inventor/astro-link-card/commit/a5163dfea179afa96961c91368f4ec3e018ff7ca) Thanks [@dependabot](https://github.com/apps/dependabot)! - build(deps): bump path-to-regexp from 6.2.2 to 6.3.0
+
+-   [#94](https://github.com/Robot-Inventor/astro-link-card/pull/94) [`0b0cc05`](https://github.com/Robot-Inventor/astro-link-card/commit/0b0cc05e23097337ff8a2eda0e6edb82b078d7a8) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency astro to v4.15.5
+
 ## 1.0.19
 
 ### Patch Changes
