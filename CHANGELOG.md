@@ -1,5 +1,15 @@
 # astro-link-card
 
+## 1.0.22
+
+### Patch Changes
+
+-   [#104](https://github.com/Robot-Inventor/astro-link-card/pull/104) [`083b430`](https://github.com/Robot-Inventor/astro-link-card/commit/083b430a0efc4077f41b2384fb09b6b54bab6c50) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency rehype-og-card to v1.0.8
+
+-   [#102](https://github.com/Robot-Inventor/astro-link-card/pull/102) [`ad62d57`](https://github.com/Robot-Inventor/astro-link-card/commit/ad62d572cf2a8564388f01bf053cd2f83be833a5) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency astro to v4.15.8
+
+-   [#100](https://github.com/Robot-Inventor/astro-link-card/pull/100) [`3146bec`](https://github.com/Robot-Inventor/astro-link-card/commit/3146bec239ef7c49bdba1eb6dc418c6a4d68c9cc) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency rehype-og-card to v1.0.7
+
 ## 1.0.21
 
 ### Patch Changes
