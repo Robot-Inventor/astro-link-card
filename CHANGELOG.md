@@ -1,5 +1,13 @@
 # astro-link-card
 
+## 1.0.34
+
+### Patch Changes
+
+- [#236](https://github.com/Robot-Inventor/astro-link-card/pull/236) [`928e289`](https://github.com/Robot-Inventor/astro-link-card/commit/928e289b9d97d28896a52fedd9e1e8aff131a4e5) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - ci: migrate from npm token to trusted publishing
+
+- [#234](https://github.com/Robot-Inventor/astro-link-card/pull/234) [`11a1763`](https://github.com/Robot-Inventor/astro-link-card/commit/11a1763746fe210ad5e20a80a55bdb16df59078a) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency rehype-og-card to v1.0.25
+
 ## 1.0.33
 
 ### Patch Changes
