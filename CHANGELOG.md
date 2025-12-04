@@ -1,5 +1,13 @@
 # astro-link-card
 
+## 1.0.39
+
+### Patch Changes
+
+- [#284](https://github.com/Robot-Inventor/astro-link-card/pull/284) [`1183032`](https://github.com/Robot-Inventor/astro-link-card/commit/11830323ccccc42f66814565ebbe1a946f71ae59) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency rehype-og-card to v1.1.1
+
+- [#282](https://github.com/Robot-Inventor/astro-link-card/pull/282) [`6d4a8c9`](https://github.com/Robot-Inventor/astro-link-card/commit/6d4a8c932be77ee01dfdb956762a6d7a21555de3) Thanks [@dependabot](https://github.com/apps/dependabot)! - build(deps-dev): bump mdast-util-to-hast from 13.2.0 to 13.2.1
+
 ## 1.0.38
 
 ### Patch Changes
