@@ -50,6 +50,6 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "rehype-og-card": "^1.0.0"
+    "rehype-og-card": "^2.0.0"
   }
 }
