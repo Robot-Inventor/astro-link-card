@@ -1,5 +1,13 @@
 # astro-link-card
 
+## 2.0.0
+
+### Major Changes
+
+- [#291](https://github.com/Robot-Inventor/astro-link-card/pull/291) [`a0a6944`](https://github.com/Robot-Inventor/astro-link-card/commit/a0a69442603bcf90036e8bde8027879884b5e9f7) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency rehype-og-card to v2
+
+    Note: When `buildCacheMaxAge` is set to a number (default 30 days), legacy build cache entries created by older versions without `cachedAt` (and image entries missing `cache.json`) may be deleted on first run.
+
 ## 1.0.39
 
 ### Patch Changes
