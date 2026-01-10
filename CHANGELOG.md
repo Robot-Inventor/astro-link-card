@@ -1,5 +1,13 @@
 # astro-link-card
 
+## 3.0.0
+
+### Major Changes
+
+- [#296](https://github.com/Robot-Inventor/astro-link-card/pull/296) [`8849998`](https://github.com/Robot-Inventor/astro-link-card/commit/88499984d217b92805a85143090eb9de506db2f1) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency rehype-og-card to v3
+
+    rehype-og-card now removes parent `p` tag from link cards to prevent invalid HTML. You can disable this behavior by setting the `removeParentPTag` option to `false`.
+
 ## 2.0.0
 
 ### Major Changes
