@@ -1,5 +1,17 @@
 # astro-link-card
 
+## 3.0.1
+
+### Patch Changes
+
+- [#299](https://github.com/Robot-Inventor/astro-link-card/pull/299) [`e96170d`](https://github.com/Robot-Inventor/astro-link-card/commit/e96170d3191e58e6b83bb23dd95b8be592262cc2) Thanks [@dependabot](https://github.com/apps/dependabot)! - build(deps): bump undici from 6.21.3 to 6.23.0
+
+- [#304](https://github.com/Robot-Inventor/astro-link-card/pull/304) [`f744f0f`](https://github.com/Robot-Inventor/astro-link-card/commit/f744f0f47991825b76d8252278242482e57239c2) Thanks [@dependabot](https://github.com/apps/dependabot)! - build(deps-dev): bump h3 from 1.15.4 to 1.15.5
+
+- [#302](https://github.com/Robot-Inventor/astro-link-card/pull/302) [`e7d48b8`](https://github.com/Robot-Inventor/astro-link-card/commit/e7d48b88aeb49fa414dac1e8a1827851dac5bd49) Thanks [@dependabot](https://github.com/apps/dependabot)! - build(deps-dev): bump devalue from 5.6.1 to 5.6.2
+
+- [#303](https://github.com/Robot-Inventor/astro-link-card/pull/303) [`537c8ae`](https://github.com/Robot-Inventor/astro-link-card/commit/537c8aeb7638286d0a83ddeb6c73a025b8ed356f) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency rehype-og-card to v3.0.1
+
 ## 3.0.0
 
 ### Major Changes
