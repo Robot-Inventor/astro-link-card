@@ -1,6 +1,6 @@
 {
   "name": "astro-link-card",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "Astro integration to automatically convert bare links into link cards.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
