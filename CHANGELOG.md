@@ -1,5 +1,11 @@
 # astro-link-card
 
+## 3.1.4
+
+### Patch Changes
+
+- [#330](https://github.com/Robot-Inventor/astro-link-card/pull/330) [`cf0f8b7`](https://github.com/Robot-Inventor/astro-link-card/commit/cf0f8b7a4eaa3b28e8aad54b4624f74677ace90b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency rehype-og-card to v3.1.3
+
 ## 3.1.3
 
 ### Patch Changes
