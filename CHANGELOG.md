@@ -1,5 +1,11 @@
 # astro-link-card
 
+## 4.0.1
+
+### Patch Changes
+
+- [#338](https://github.com/Robot-Inventor/astro-link-card/pull/338) [`5dd39c1`](https://github.com/Robot-Inventor/astro-link-card/commit/5dd39c161662939c686d5018b335ab47243521d6) Thanks [@dependabot](https://github.com/apps/dependabot)! - build(deps-dev): bump devalue from 5.6.3 to 5.6.4
+
 ## 4.0.0
 
 ### Major Changes
