@@ -47,7 +47,7 @@
     "astro": "^6.0.0",
     "eslint": "^9.8.0",
     "prettier": "^3.3.3",
-    "typescript": "^6.0.0"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "rehype-og-card": "^3.0.0"
