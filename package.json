@@ -42,7 +42,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.6.0",
     "@changesets/cli": "^2.27.7",
-    "@robot-inventor/eslint-config": "^11.0.0",
+    "@robot-inventor/eslint-config": "^12.0.0",
     "@robot-inventor/tsconfig-base": "^7.0.0",
     "astro": "^6.0.0",
     "eslint": "^10.0.0",
