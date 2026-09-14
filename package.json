@@ -44,7 +44,7 @@
     "@changesets/cli": "^3.0.0",
     "@robot-inventor/eslint-config": "^13.0.0",
     "@robot-inventor/tsconfig-base": "^7.0.0",
-    "astro": "^6.0.0",
+    "astro": "^7.3.2",
     "eslint": "^10.0.0",
     "prettier": "^3.3.3",
     "typescript": "^6.0.0"
