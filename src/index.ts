@@ -11,7 +11,7 @@ import type { AstroIntegration } from "astro";
 const astroLinkCard = (options?: RehypeOGCardOptions): AstroIntegration => {
     const integration: AstroIntegration = {
         hooks: {
-            // eslint-disable-next-line jsdoc/require-jsdoc
+            // oxlint-disable-next-line jsdoc-js/require-jsdoc
             "astro:config:setup": ({ updateConfig }) => {
                 const defaultOptions: RehypeOGCardOptions = {
                     buildCache: true,

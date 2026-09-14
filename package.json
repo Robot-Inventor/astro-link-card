@@ -12,10 +12,10 @@
     "provenance": true
   },
   "scripts": {
-    "build": "npx tsc",
-    "format": "npx prettier --write ./src/",
-    "format:check": "npx prettier --check ./src/",
-    "lint": "npx eslint ./src/**/*.ts",
+    "build": "tsc",
+    "format": "prettier --write ./src/",
+    "format:check": "prettier --check ./src/",
+    "lint": "oxlint ./src",
     "version": "npm run build && git add .",
     "ci:version": "changeset version && npm run version",
     "ci:publish": "npm run build && changeset publish"
@@ -42,10 +42,10 @@
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.0",
     "@changesets/cli": "^3.0.0",
-    "@robot-inventor/eslint-config": "^13.0.0",
+    "@robot-inventor/oxlint-config": "^0.2.0",
     "@robot-inventor/tsconfig-base": "^7.0.0",
     "astro": "^6.0.0",
-    "eslint": "^10.0.0",
+    "oxlint": "^1.83.0",
     "prettier": "^3.3.3",
     "typescript": "^6.0.0"
   },
