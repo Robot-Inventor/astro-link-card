@@ -2,6 +2,9 @@
 
 Astro integration to automatically convert bare links into link cards. This is a wrapper for [rehype-og-card](https://github.com/Robot-Inventor/rehype-og-card) with some configuration optimizations for Astro.
 
+> [!TIP]
+> Since astro-link-card v5 supports only Astro v7, please use v4 if you are using Astro v6.
+
 ## Features
 
 This integration will automatically convert bare links into link cards. This is useful for creating a more visually appealing website with link previews. Here are some key features:
@@ -71,13 +74,23 @@ npx astro add astro-link-card
 npm install astro-link-card
 ```
 
+On Astro v7, the remark/rehype pipeline is no longer the default. Install `@astrojs/markdown-remark` and set `unified()` as the Markdown processor to use this integration:
+
+```bash
+npm install @astrojs/markdown-remark
+```
+
 ```typescript
-import { defineConfig } from "astro";
+import { defineConfig } from "astro/config";
+import { unified } from "@astrojs/markdown-remark";
 import linkCard from "astro-link-card";
 
 // https://astro.build/config
 export default defineConfig({
     // ... other config
+    markdown: {
+        processor: unified()
+    },
     integrations: [
         linkCard({
             // options
