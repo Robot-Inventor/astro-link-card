@@ -45,7 +45,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.0",
     "@changesets/cli": "^3.0.0",
-    "@robot-inventor/oxlint-config": "^0.2.0",
+    "@robot-inventor/oxlint-config": "^0.4.0",
     "@robot-inventor/tsconfig-base": "^7.0.0",
     "astro": "^7.0.0",
     "oxlint": "^1.83.0",
