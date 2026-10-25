@@ -1,5 +1,13 @@
 # astro-link-card
 
+## 6.0.0
+
+### Major Changes
+
+- [#452](https://github.com/Robot-Inventor/astro-link-card/pull/452) [`8b9d0b6`](https://github.com/Robot-Inventor/astro-link-card/commit/8b9d0b6c9feb11230465d405a65561ae5b699425) Thanks [@renovate](https://github.com/apps/renovate)! - feat(deps): update dependency rehype-og-card to v4
+
+    For security reasons, astro-link-card now rasterizes SVG images. While you can restore the previous behavior by setting `svgHandling: "preserve"`, this is not recommended. If you are using server-side caching for astro-link-card, it is recommended that you clear the cache after updating to this version.
+
 ## 5.0.1
 
 ### Patch Changes
