@@ -2,57 +2,57 @@
   "name": "astro-link-card",
   "version": "6.0.0",
   "description": "Astro integration to automatically convert bare links into link cards.",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "keywords": [
+    "astro",
+    "astro-integration",
+    "rehype",
+    "rehype-plugin",
+    "seo",
+    "ui",
+    "withastro"
+  ],
+  "homepage": "https://github.com/Robot-Inventor/astro-link-card#readme",
+  "bugs": {
+    "url": "https://github.com/Robot-Inventor/astro-link-card/issues"
+  },
+  "license": "MIT",
+  "author": "Robot-Inventor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robot-Inventor/astro-link-card.git"
+  },
   "files": [
     "./dist/"
   ],
   "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "publishConfig": {
     "provenance": true
   },
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write ./src/",
-    "format:check": "prettier --check ./src/",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
     "lint": "oxlint ./src",
     "version": "npm run build && git add .",
     "ci:version": "changeset version && npm run version",
     "ci:publish": "npm run build && changeset publish"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Robot-Inventor/astro-link-card.git"
+  "dependencies": {
+    "rehype-og-card": "^4.0.0"
   },
-  "peerDependencies": {
-    "astro": "^7.0.0"
-  },
-  "keywords": [
-    "astro",
-    "rehype",
-    "rehype-plugin",
-    "astro-integration",
-    "withastro",
-    "ui",
-    "seo"
-  ],
-  "author": "Robot-Inventor",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Robot-Inventor/astro-link-card/issues"
-  },
-  "homepage": "https://github.com/Robot-Inventor/astro-link-card#readme",
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.0",
     "@changesets/cli": "^3.0.0",
     "@robot-inventor/oxlint-config": "^1.0.0",
     "@robot-inventor/tsconfig-base": "^7.0.0",
     "astro": "^7.0.0",
+    "oxfmt": "^0.75.0",
     "oxlint": "^1.83.0",
-    "prettier": "^3.3.3",
     "typescript": "^7.0.0"
   },
-  "dependencies": {
-    "rehype-og-card": "^4.0.0"
+  "peerDependencies": {
+    "astro": "^7.0.0"
   }
 }
