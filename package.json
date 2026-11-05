@@ -34,7 +34,7 @@
     "build": "tsc",
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
-    "lint": "oxlint ./src",
+    "lint": "oxlint src",
     "version": "npm run build && git add .",
     "ci:version": "changeset version && npm run version",
     "ci:publish": "npm run build && changeset publish"
