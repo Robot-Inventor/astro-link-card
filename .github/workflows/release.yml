@@ -27,13 +27,15 @@ jobs:
               with:
                   node-version: ${{ matrix.node-version }}
 
-            - run: npm ci
+            - uses: oven-sh/setup-bun@v2
+
+            - run: bun install --frozen-lockfile
 
             - name: Create Release Pull Request or Publish to npm
               id: changesets
               uses: changesets/action@v2.1.2
               with:
-                  version-script: npm run ci:version
-                  publish-script: npm run ci:publish
+                  version-script: bun run ci:version
+                  publish-script: bun run ci:publish
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
