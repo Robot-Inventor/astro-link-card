@@ -48,7 +48,7 @@
     "@robot-inventor/oxlint-config": "^2.0.0",
     "@robot-inventor/tsconfig-base": "^7.0.0",
     "astro": "^7.0.0",
-    "oxfmt": "^0.76.0",
+    "oxfmt": "^0.77.0",
     "oxlint": "^1.83.0",
     "typescript": "^7.0.0"
   },
